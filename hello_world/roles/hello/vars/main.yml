@@ -1,0 +1,5 @@
+---
+
+info:
+  - { name: world, number: 1 }
+  - { name: GMU, number: 2 }

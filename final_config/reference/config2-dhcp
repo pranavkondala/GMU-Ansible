@@ -1,0 +1,35 @@
+system {
+    host-name NAME;
+}
+interfaces {
+    ge-0/0/0 {
+        unit 0 {
+            description "DESCRIPTION";
+            family inet {
+                address IPV4/CIDRNETMASK;
+            }
+            family inet6 {
+                address IPV6;
+            }
+        }
+    }
+}
+routing-options {
+    static {
+        route 0.0.0.0/0 next-hop GATEWAY_V4;
+    }
+    rib inet6.0 {
+        static {
+            route ::/0 next-hop GATEWAY_V6;
+        }
+    }
+}
+
+# DHCP
+set system services dhcp pool NETWORK/CIDR address-range low FIRSTDHCP
+set system services dhcp pool NETWORK/CIDR address-range high LASTDHCP
+set system services dhcp pool NETWORK/CIDR router GATEWAY
+set system services dhcp pool NETWORK/CIDR domain-name DOMAIN
+set system services dhcp pool NETWORK/CIDR name-server DHCPSERVER
+
+

@@ -1,0 +1,9 @@
+
+
+---
+
+basic_sites:
+  - { hostname: "router.GMU", int_description: "to GMU", ipv4: "192.0.2.0/24", ipv6: "2001:0db8:1000::/36" }
+  - { hostname: "router.L3", int_description: "to Level 3", ipv4: "198.51.100.0/24", ipv6: "2001:0db8:2000::/36" }
+  - { hostname: "router.hughes", int_description: "to Hughes", ipv4: "203.0.113.0/24", ipv6: "2001:0db8:3000::/36" }
+

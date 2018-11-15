@@ -1,4 +1,5 @@
-If you have an existing Linux environment that you're comfortable managing, the main steps are:
+Run the following commands on terminal of your Linux enviorment.
+
 ```
 wget -O tutorial.tgz https://github.com/pranavkondala/GMU-Ansible/archive/master.tar.gz
 tar xzf tutorial.tgz

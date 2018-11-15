@@ -1,8 +1,8 @@
 If you have an existing Linux environment that you're comfortable managing, the main steps are:
 ```
-wget -O tutorial.tgz https://github.com/bronwynlewis/ansible-network-automation-tutorial/archive/master.tar.gz
+wget -O tutorial.tgz https://github.com/pranavkondala/GMU-Ansible/archive/master.tar.gz
 tar xzf tutorial.tgz
-cd ansible-network-automation-tutorial-master
+cd GMU-Ansible-master
 sudo apt-get install python-pip python-dev
 sudo pip install -r requirements.txt
 ```

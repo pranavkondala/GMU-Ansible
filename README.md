@@ -1,4 +1,4 @@
-Run the following commands on terminal of your Linux enviorment.
+Run the following commands on terminal of your Linux environment.
 
 ```
 wget -O tutorial.tgz https://github.com/pranavkondala/GMU-Ansible/archive/master.tar.gz

@@ -1,8 +1,7 @@
 Run the following commands on terminal of your Linux environment.
 
 ```
-wget -O tutorial.tgz https://github.com/pranavkondala/GMU-Ansible/archive/master.tar.gz
-tar xzf tutorial.tgz
+git clone https://github.com/pranavkondala/GMU-Ansible.git
 cd GMU-Ansible-master
 sudo apt-get install python-pip python-dev
 sudo pip install -r requirements.txt
